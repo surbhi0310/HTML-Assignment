@@ -1,0 +1,95 @@
+Ans1.
+HTML (HyperText Markup Language) is the standard language for creating and structuring web pages.
+Purpose of HTML in Web Development
+~ Structure: Defines the layout of content (e.g., headings, paragraphs, lists).
+~ Links: Enables navigation between pages using hyperlinks.
+~ Semantics: Provides meaning to content with semantic tags (e.g., <header>, <footer>).
+~ Media: Embeds images, videos, and audio into web pages.
+~ Forms: Collects user input through forms.
+~ Browser Compatibility: Works across all web browsers.
+
+Ans2.
+Semantic elements define the meaning and role of content, improving readability, accessibility, and SEO.
+Examples and Significance
+i) <header>: Represents the top section of a page or section, often containing titles or navigation.
+Example:
+<header><h1>Welcome</h1></header>
+ii) <article>: Represents self-contained content, like a blog post or article.
+Example:
+<article><h2>News</h2><p>Latest update...</p></article>
+iii) <footer>: Defines the footer section, often for copyright or links.
+Example:
+<footer>&copy; 2025 My Website</footer>
+
+Ans3.
+Block-Level Elements
+~ Behavior: Start on a new line and take up the full width of their container by default.
+~ Usage: Used to create structural elements like headings, paragraphs, and divisions.
+~ Examples: <div>, <p>, <h1>, <ul>, <table>
+
+Inline-Level Elements
+~ Behavior: Do not start on a new line; they take up only as much width as their content.
+~ Usage: Used to style or modify content within block-level elements.
+~ Examples: <span>, <a>, <strong>, <img>
+
+Ans4.
+The <meta> tag provides metadata (information about the webpage) to browsers and search engines. It helps define how the page is displayed, behaves, and is indexed.
+Common Uses of the <meta> Tag-
+~ Character Encoding: Specifies the character set for the webpage to ensure proper rendering of text.
+~ Viewport Settings: Controls how the page is displayed on different devices, especially mobile.
+~ SEO (Search Engine Optimization): Provides information like keywords and descriptions for better search engine ranking.
+~ Page Refresh and Redirect: Automatically refreshes or redirects the page after a set time.
+~ Author and Copyright Information: Provides details about the webpage author or copyright.
+
+Ans5.
+The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of an HTML or XML document as a tree-like hierarchy of nodes, allowing developers to interact with and manipulate the content, structure, and style of a webpage dynamically.
+Relationship Between DOM and HTML
+~ HTML as Input: The DOM is created by the browser when it parses the HTML document.
+~ Interactive Control: JavaScript uses the DOM to dynamically manipulate HTML content and CSS styles.
+~ Hierarchy: HTML elements become nodes in the DOM, with parent-child relationships reflecting the document's structure.
+
+Ans6.
+<div>
+~  It is a Block-level element (starts on a new line).
+~ It is used to group and organize larger sections of content.
+~ Used for layout and structure.
+~ It applies styles to block-level sections.
+
+<span>
+~  It is a Inline element (stays in line with other content).
+~ It is used to wrap small portions of inline text or content.
+~ Used for styling specific text or content.
+~ Applies styles to inline elements.
+
+Ans7.
+The alt (alternative text) attribute provides a textual description of an image for situations where the image cannot be displayed or seen by users. It is included within the <img> tag to describe the content or function of the image.
+
+Importance for Accessibility - 
+~ Screen Readers: The alt text allows screen readers to describe images to users with visual impairments.
+~ Context: It helps users understand the meaning or purpose of an image in the context of the webpage content.
+Importance for SEO - 
+~ Search Engine Crawling: Search engines cannot "see" images. The alt attribute provides context about the image, helping search engines index and rank the page properly.
+~ Relevance: Including descriptive, relevant alt text can improve search visibility, as search engines use it to understand the content of images.
+
+Ans8.
+HTML attributes provide additional information about HTML elements and modify their behavior or appearance. They are always specified within the opening tag of an element.
+How They Modify Elements:
+~ Define Behavior: Attributes control the functionality or interaction of elements (e.g., links, forms).
+~ Control Appearance: Some attributes define the visual presentation of elements (e.g., styling, dimensions).
+~ Provide Metadata: Attributes store metadata about elements, such as names, IDs, or classes for styling and scripting.
+
+Ans9.
+<a href="https://www.example.com" target="_blank" title="Visit Example">Click here to visit Example</a>
+
+Ans10.
+Absolute URL:
+Definition: Specifies the complete URL, including the protocol (e.g., http:// or https://), domain, and path. It points to a specific resource on the web.
+Usage: Used when linking to a different website or a resource that is hosted elsewhere.
+Example:
+<a href="https://www.example.com/about">About Us</a>
+
+Relative URL:
+Definition: Specifies a URL relative to the current document's location. It doesn't include the domain or protocol but instead refers to a file or resource within the same website or directory.
+Usage: Used for links to resources within the same website, making it more flexible and portable.
+Example:
+<a href="/about">About Us</a>
